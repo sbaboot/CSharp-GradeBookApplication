@@ -53,7 +53,7 @@ namespace GradeBook.UserInterfaces
             }
             if (type == "ranked")
             {
-                gradeBook = new RankedGradeBook(name, );
+                gradeBook = new RankedGradeBook(name, isWeighted);
             }
             else
             {
